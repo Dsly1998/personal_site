@@ -1,11 +1,14 @@
-import React from 'react';
+import React from "react";
+import "./Main.css";
 
-function MainContent() {
+function Main() {
   return (
     <main>
-      <p>This is the main section of my portfolio where I showcase my projects.</p>
+      <p className="main__text">
+        This is the main section of my portfolio where I showcase my projects.
+      </p>
     </main>
   );
 }
 
-export default MainContent;
+export default Main;

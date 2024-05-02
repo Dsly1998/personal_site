@@ -1,0 +1,29 @@
+.about__title {
+  color: #ffffff;
+}
+
+.about__text {
+  color: #ffffff;
+}
+
+.about__image {
+  height: 200px;
+  width: 200px;
+  background-color: black;
+  border-radius: 50%;
+  border: 1px black;
+}
+
+.about__container {
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+}

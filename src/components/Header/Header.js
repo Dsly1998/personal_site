@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import "./Header.css";
 
 function Header() {
   return (
     <header>
-      <h1>Welcome to My Portfolio</h1>
+      <h1 className="header__title">Welcome to My Portfolio</h1>
     </header>
   );
 }
