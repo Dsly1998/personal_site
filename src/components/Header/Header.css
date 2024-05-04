@@ -1,4 +1,8 @@
-.header__title{
-    font-family: "Orbitron", "Roboto", "Arial";
-    color: #ffffff;
+.header {
+  border: 3px #ffffff;
+}
+
+.header__title {
+  font-family: "Orbitron", "Roboto", "Arial";
+  color: #ffffff;
 }
