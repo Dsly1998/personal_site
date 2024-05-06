@@ -1,10 +1,12 @@
 import React from "react";
+import Contact from "../Contact/Contact";
 import "./Header.css";
 
 function Header() {
   return (
     <header className="header">
-      <h1 className="header__title">Welcome to My Portfolio</h1>
+      <h1 className="header__title">Dallin Sly</h1>
+      <Contact />
     </header>
   );
 }

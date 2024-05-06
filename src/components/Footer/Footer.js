@@ -3,9 +3,9 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <footer>
+    <footer className="footer">
       <p className="footer__text">
-        © 2024 by Your Dallin Sly Proudly created with React.
+        © 2024 by Dallin Sly created with React.
       </p>
     </footer>
   );
