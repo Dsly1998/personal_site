@@ -8,7 +8,7 @@ import "./Main.css";
 
 function Main() {
   return (
-    <main className="main">
+    <main className="main" id="main">
       <h1 className="main__text">Portfolio</h1>
       <div className="main__wrapper">
         <div className="main__card">
