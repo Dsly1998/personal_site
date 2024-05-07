@@ -1,3 +1,15 @@
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 .header {
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
@@ -44,6 +56,10 @@
   border-radius: 50%;
   display: flex;
   flex-direction: column;
+}
+
+.header__contact-rocket-button.pulse {
+  animation: pulse 2s infinite;
 }
 
 .header__contact-text {
