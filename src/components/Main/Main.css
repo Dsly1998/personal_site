@@ -22,6 +22,10 @@
   background-color: #000000;
 }
 
+.main__button:hover{
+    opacity: 50%;
+}
+
 .main__wrapper {
   display: flex;
   flex-direction: column;
@@ -40,7 +44,19 @@
 }
 
 .main__info {
+  padding: 0 40px 0 40px;
+}
+
+.main__info-title {
   font-family: "Roboto" "Times New Roman", Times, serif;
   color: #ffffff;
-  padding: 0 40px 0 40px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main__info-description {
+  font-family: "Roboto" "Times New Roman", Times, serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
 }

@@ -17,15 +17,14 @@
   justify-content: flex-start;
   align-content: center;
   background-color: #fff;
-  padding: 20px;
-  padding-top: 0;
+  padding: 0 20px 0 20px;
   border-radius: 8px;
 }
 
 .modal__close-button {
   position: relative;
   bottom: 40px;
-  left: 225px;
+  left: 300px;
   width: 0;
   height: 0;
   background-color: transparent;
@@ -35,9 +34,60 @@
 
 .modal__title {
   font-family: "Roboto", "Times New Roman", Times, serif;
-  margin: 20px 0 0 0;
+  font-size: 32px;
+  font-weight: 900;
+  margin: 18px 0 0 0;
+  background-image: url("../../images/space.jpg");
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .modal__contact-info {
   font-family: "Roboto", "Times New Roman", Times, serif;
+}
+
+.modal__link {
+  text-decoration: none;
+}
+
+.modal__icon-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 24px;
+  margin-bottom: 18px;
+}
+
+.modal__icon-wrapper:hover {
+  cursor: pointer;
+  opacity: 50%;
+}
+
+.modal__icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+}
+
+.modal__personals {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  font-family: "Roboto" "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+}
+
+.modal__icon-label {
+  font-family: "Roboto" "Times New Roman", Times, serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #377b98;
 }
