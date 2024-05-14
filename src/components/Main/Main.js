@@ -50,7 +50,7 @@ function Main() {
             </p>
           </div>
           <a
-            href="https://github.com/Dsly1998/se_project_aroundtheus.git"
+            href=" https://dsly1998.github.io/se_project_aroundtheus/"
             className="main__button"
             target="_blank"
             rel="noopener noreferrer"
