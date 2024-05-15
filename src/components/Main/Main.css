@@ -4,6 +4,7 @@
 
 .main__text {
   color: #ffffff;
+  margin-top: 40px;
 }
 
 .main__image {
@@ -22,8 +23,8 @@
   background-color: #000000;
 }
 
-.main__button:hover{
-    opacity: 50%;
+.main__button:hover {
+  opacity: 50%;
 }
 
 .main__wrapper {
@@ -59,4 +60,57 @@
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+  .main__card {
+    padding: 40px 40px 0 40px;
+    align-items: center;
+  }
+
+  .main__image {
+    width: 240px;
+    height: 150px;
+    display: flex;
+    align-self: center;
+  }
+
+  .main__info-title {
+    margin-top: 0;
+  }
+
+  .main__wrapper {
+    padding: 0px 0 30px 0;
+  }
+
+  .main__text {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .main__card {
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .main__card-right {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .main__image {
+    width: 310px;
+  }
+
+  .main__info {
+    padding: 0;
+  }
+
+  .main__info-description {
+    padding: 10px;
+    font-size: 13px;
+  }
 }

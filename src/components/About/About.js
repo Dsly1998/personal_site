@@ -10,16 +10,18 @@ function About() {
         <div className="about__info">
           <h2 className="about__title">About Me</h2>
           <p className="about__text">
-            Hey! I'm Dallin Sly, a tech enthusiast and former commercial driver
-            transitioning into the exciting world of software engineering.
-            Graduating from the Triple Ten Bootcamp, I've honed my skills in
-            React.js, JavaScript, and beyond, ready to make an impact in the
-            tech industry. With a passion for problem-solving and a drive to
-            excel, I thrive on tackling challenges head-on. My experience as a
-            father and husband has instilled in me patience, dedication, and a
-            fresh perspective on problem-solving. Check out my portfolio to see
-            how I blend creativity with technical expertise. Let's collaborate
-            and build something extraordinary together!
+            Hey there! I'm Dallin Sly, a tech enthusiast with a unique journey
+            from the driver's seat to the world of software engineering.
+            Recently completing the rigorous Triple Ten Bootcamp, I've finely
+            tuned my skills in React.js, JavaScript, HTML, CSS, and more, poised
+            to ignite innovation in the tech realm. Beyond my technical prowess,
+            my role as a devoted father and husband has cultivated qualities of
+            patience, unwavering dedication, and a fresh outlook on
+            problem-solving. With a deep-seated passion for unraveling
+            challenges and a relentless drive to excel, I'm primed to embark on
+            this exhilarating career transition. Explore my portfolio to witness
+            the fusion of creativity and technical finesse, and let's unite to
+            craft something truly extraordinary together!
           </p>
         </div>
       </div>

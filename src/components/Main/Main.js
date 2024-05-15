@@ -85,8 +85,8 @@ function Main() {
               clothing options based on the prevailing weather conditions at the
               user's location. This intuitive feature ensures users are always
               well-prepared and stylish, regardless of the forecast.
-              https://github.com/Dsly1998/se_project_express.git
               https://github.com/Dsly1998/se_project_react.git
+              https://github.com/Dsly1998/se_project_express.git
             </p>
           </div>
         </div>

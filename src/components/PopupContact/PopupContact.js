@@ -33,17 +33,6 @@ function PopupContact({ onClose }) {
         </div>
         <div className="modal__social-links">
           <a
-            href="https://github.com/Dsly1998"
-            className="modal__link"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div className="modal__icon-wrapper">
-              <img src={github} alt="GitHub" className="modal__icon" />
-              <p className="modal__icon-label">Git Hub</p>
-            </div>
-          </a>
-          <a
             href="https://www.linkedin.com/in/dallin-sly-software-engineer"
             className="modal__link"
             target="_blank"
@@ -52,6 +41,17 @@ function PopupContact({ onClose }) {
             <div className="modal__icon-wrapper">
               <img src={linkedin} alt="LinkedIn" className="modal__icon" />
               <p className="modal__icon-label">LinkedIn</p>
+            </div>
+          </a>
+          <a
+            href="https://github.com/Dsly1998"
+            className="modal__link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div className="modal__icon-wrapper">
+              <img src={github} alt="GitHub" className="modal__icon" />
+              <p className="modal__icon-label">Git Hub</p>
             </div>
           </a>
         </div>
