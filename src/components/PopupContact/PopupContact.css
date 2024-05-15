@@ -91,3 +91,15 @@
   font-weight: 500;
   color: #377b98;
 }
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .modal__close-button {
+    position: relative;
+    bottom: 40px;
+    left: 262px;
+  }
+  .modal__content {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
