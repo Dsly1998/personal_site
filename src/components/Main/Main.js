@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import newsImage from "../../images/news.png";
 import aroundus from "../../images/aroundus.png";
 import ttwtwr from "../../images/ttwtwr.png";
@@ -7,11 +7,39 @@ import library from "../../images/library.png";
 import "./Main.css";
 
 function Main() {
+  const cardsRef = useRef([]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      {
+        threshold: 0.2,
+      }
+    );
+
+    const cards = cardsRef.current;
+    cards.forEach((card) => {
+      if (card) observer.observe(card);
+    });
+
+    return () => {
+      cards.forEach((card) => {
+        if (card) observer.unobserve(card);
+      });
+    };
+  }, []);
+
   return (
     <main className="main" id="main">
       <h1 className="main__text">Portfolio</h1>
       <div className="main__wrapper">
-        <div className="main__card">
+        <div className="main__card" ref={(el) => (cardsRef.current[0] = el)}>
           <a
             href="https://articlelist.ignorelist.com"
             className="main__button"
@@ -37,7 +65,10 @@ function Main() {
             </p>
           </div>
         </div>
-        <div className="main__card main__card-right">
+        <div
+          className="main__card main__card-right"
+          ref={(el) => (cardsRef.current[1] = el)}
+        >
           <div className="main__info">
             <h3 className="main__info-title">Around the USA</h3>
             <p className="main__info-description">
@@ -62,7 +93,7 @@ function Main() {
             />
           </a>
         </div>
-        <div className="main__card">
+        <div className="main__card" ref={(el) => (cardsRef.current[2] = el)}>
           <a
             href="https://github.com/Dsly1998/se_project_react.git"
             className="main__button"
@@ -90,7 +121,10 @@ function Main() {
             </p>
           </div>
         </div>
-        <div className="main__card main__card-right">
+        <div
+          className="main__card main__card-right"
+          ref={(el) => (cardsRef.current[3] = el)}
+        >
           <div className="main__info">
             <h3 className="main__info-title">Coffee Shop</h3>
             <p className="main__info-description">
@@ -118,7 +152,7 @@ function Main() {
             />
           </a>
         </div>
-        <div className="main__card">
+        <div className="main__card" ref={(el) => (cardsRef.current[4] = el)}>
           <a
             href="https://github.com/Dsly1998/se_project_library.git"
             className="main__button"

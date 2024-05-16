@@ -30,41 +30,49 @@
 .main__wrapper {
   display: flex;
   flex-direction: column;
-  padding: 30px 0 30px 0;
+  padding: 30px 0;
 }
 
 .main__card {
   display: flex;
-  padding: 0 80px 0 80px;
+  padding: 0 80px;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 .main__card-right {
   display: flex;
   justify-content: flex-end;
   align-content: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
 }
 
 .main__info {
-  padding: 0 40px 0 40px;
+  padding: 0 40px;
 }
 
 .main__info-title {
-  font-family: "Roboto" "Times New Roman", Times, serif;
+  font-family: "Roboto", "Times New Roman", Times, serif;
   color: #ffffff;
   font-size: 18px;
   font-weight: 600;
 }
 
 .main__info-description {
-  font-family: "Roboto" "Times New Roman", Times, serif;
+  font-family: "Roboto", "Times New Roman", Times, serif;
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
 }
 
+.visible {
+  opacity: 1;
+}
+
 @media screen and (min-width: 768px) and (max-width: 1279px) {
   .main__card {
-    padding: 40px 40px 0 40px;
+    padding: 40px 40px 0;
     align-items: center;
   }
 
@@ -80,7 +88,7 @@
   }
 
   .main__wrapper {
-    padding: 0px 0 30px 0;
+    padding: 0 0 30px;
   }
 
   .main__text {
@@ -93,7 +101,7 @@
   .main__card {
     display: flex;
     flex-direction: column;
-    padding: 0px;
+    padding: 0;
   }
 
   .main__card-right {
