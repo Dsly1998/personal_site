@@ -60,9 +60,25 @@ function Main() {
               backend. By integrating a third-party API, this application
               enables users to register accounts, conduct keyword searches, and
               save relevant news articles for future reference.
-              https://github.com/Dsly1998/news-explorer-frontend.git
-              https://github.com/Dsly1998/news-explorer-backend.git
             </p>
+            <div>
+              <a
+                href="https://github.com/Dsly1998/news-explorer-frontend.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="main__description-link"
+              >
+                https://github.com/Dsly1998/news-explorer-frontend.git
+              </a>
+              <a
+                href="https://github.com/Dsly1998/news-explorer-backend.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="main__description-link"
+              >
+                https://github.com/Dsly1998/news-explorer-backend.git
+              </a>
+            </div>
           </div>
         </div>
         <div
@@ -116,9 +132,25 @@ function Main() {
               clothing options based on the prevailing weather conditions at the
               user's location. This intuitive feature ensures users are always
               well-prepared and stylish, regardless of the forecast.
-              https://github.com/Dsly1998/se_project_react.git
-              https://github.com/Dsly1998/se_project_express.git
             </p>
+            <div>
+              <a
+                href="https://github.com/Dsly1998/se_project_react.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="main__description-link"
+              >
+                https://github.com/Dsly1998/se_project_react.git
+              </a>
+              <a
+                href="https://github.com/Dsly1998/se_project_express.git"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="main__description-link"
+              >
+                https://github.com/Dsly1998/se_project_express.git
+              </a>
+            </div>
           </div>
         </div>
         <div

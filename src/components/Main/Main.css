@@ -17,7 +17,7 @@
 }
 
 .main__button {
-  padding: 0;
+  padding: 30px 0 0 0;
   border: none;
   margin: 0;
   background-color: #000000;
@@ -64,6 +64,22 @@
   color: #ffffff;
   font-size: 14px;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+.main__description-link {
+  font-family: "Roboto", "Times New Roman", Times, serif;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  margin-top: 0px;
+}
+
+.main__description-link:hover {
+  opacity: 70%;
 }
 
 .visible {
@@ -88,7 +104,7 @@
   }
 
   .main__wrapper {
-    padding: 0 0 30px;
+    padding: 0 0 30px 0;
   }
 
   .main__text {
@@ -117,8 +133,11 @@
     padding: 0;
   }
 
+  .main__wrapper {
+    padding: 0 0 30px 0;
+  }
+
   .main__info-description {
-    padding: 10px;
     font-size: 13px;
   }
 }
