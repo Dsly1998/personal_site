@@ -78,6 +78,14 @@ function Main() {
               >
                 https://github.com/Dsly1998/news-explorer-backend.git
               </a>
+              <a
+                href="https://www.loom.com/share/8b90d964059545c6a7c93d3894efcec9?sid=b7125f6b-f367-41d2-8b98-2720ff6dc20c"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="main__description-link"
+              >
+                Project Demo
+              </a>
             </div>
           </div>
         </div>
