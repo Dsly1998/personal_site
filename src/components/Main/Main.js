@@ -187,7 +187,7 @@ function Main() {
             <img
               src={pressure}
               alt="Red Line & Blue Pressure Washing"
-              className="main__image main__image"
+              className="main__image main__image-us"
             />
           </a>
         </div>
