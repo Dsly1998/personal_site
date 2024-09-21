@@ -4,6 +4,7 @@ import aroundus from "../../images/aroundus.png";
 import ttwtwr from "../../images/ttwtwr.png";
 import coffeeshop from "../../images/coffeeshop.png";
 import library from "../../images/library.png";
+import pressure from "../../images/Screenshot.png";
 import "./Main.css";
 
 function Main() {
@@ -165,30 +166,28 @@ function Main() {
           className="main__card main__card-right"
           ref={(el) => (cardsRef.current[3] = el)}
         >
-          <div className="main__info">
-            <h3 className="main__info-title">Coffee Shop</h3>
+                    <div className="main__info">
+            <h3 className="main__info-title">Red Line & Blue</h3>
             <p className="main__info-description">
-              The Coffee Shop Project is a captivating landing page designed
-              using HTML and CSS specifically for the Practicum cafe. This
-              engaging platform boasts a seamless navigation bar, an enticing
-              menu section, and insightful video tutorials. Additionally,
-              visitors can conveniently make reservations through the website,
-              enhancing their overall experience. With its dynamic and visually
-              appealing elements, the Coffee Shop Project effectively showcases
-              the charm and offerings of the Practicum cafe while providing
-              users with an immersive online experience.
+            Red Line & Blue is a React-based landing page I developed for a
+              pressure washing company. The site features a gallery of images
+              showcasing the company's work, as well as a list of services and
+              contact details. With a clean and user-friendly design, visitors
+              can easily browse the services offered and get in touch for
+              inquiries, making it an ideal solution for promoting the business
+              online.
             </p>
           </div>
           <a
-            href="https://github.com/Dsly1998/se_project_coffeeshop.git"
+            href=" https://redlineandbluepressurewashing.com"
             className="main__button"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img
-              src={coffeeshop}
-              alt="Discover local coffee shops project"
-              className="main__image"
+              src={pressure}
+              alt="Red Line & Blue Pressure Washing"
+              className="main__image main__image"
             />
           </a>
         </div>
@@ -218,6 +217,37 @@ function Main() {
               a vital academic resource.
             </p>
           </div>
+        </div>
+        <div
+          className="main__card main__card-right"
+          ref={(el) => (cardsRef.current[5] = el)}
+        >
+        <div className="main__info">
+            <h3 className="main__info-title">Coffee Shop</h3>
+            <p className="main__info-description">
+              The Coffee Shop Project is a captivating landing page designed
+              using HTML and CSS specifically for the Practicum cafe. This
+              engaging platform boasts a seamless navigation bar, an enticing
+              menu section, and insightful video tutorials. Additionally,
+              visitors can conveniently make reservations through the website,
+              enhancing their overall experience. With its dynamic and visually
+              appealing elements, the Coffee Shop Project effectively showcases
+              the charm and offerings of the Practicum cafe while providing
+              users with an immersive online experience.
+            </p>
+          </div>
+          <a
+            href="https://github.com/Dsly1998/se_project_coffeeshop.git"
+            className="main__button"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src={coffeeshop}
+              alt="Discover local coffee shops project"
+              className="main__image"
+            />
+          </a>
         </div>
       </div>
     </main>
