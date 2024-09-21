@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.d64b3960.css",
-    "main.js": "/static/js/main.114fc3c7.js",
+    "main.css": "/static/css/main.94634afe.css",
+    "main.js": "/static/js/main.fdb7e7a5.js",
     "static/js/453.96cba20d.chunk.js": "/static/js/453.96cba20d.chunk.js",
     "static/media/space.jpg": "/static/media/space.e090547511f55d9dbd50.jpg",
     "static/media/news.png": "/static/media/news.690764542617dd74be2b.png",
+    "static/media/Screenshot.png": "/static/media/Screenshot.2e701e9c9c3ee8102944.png",
     "static/media/aroundus.png": "/static/media/aroundus.4cd58cce1cecaa430270.png",
     "static/media/ttwtwr.png": "/static/media/ttwtwr.d48ff61ba07f1b60f07e.png",
     "static/media/coffeeshop.png": "/static/media/coffeeshop.aae104d692deb33ec5a8.png",
@@ -35,12 +36,12 @@
     "static/media/phone.svg": "/static/media/phone.22904118b466d50710a6927da97da9cf.svg",
     "static/media/close.svg": "/static/media/close.4304b1ddb98905af4679708f357ee620.svg",
     "static/media/mail.svg": "/static/media/mail.eee1baa73917a6ad8cc5ab655510875a.svg",
-    "main.d64b3960.css.map": "/static/css/main.d64b3960.css.map",
-    "main.114fc3c7.js.map": "/static/js/main.114fc3c7.js.map",
+    "main.94634afe.css.map": "/static/css/main.94634afe.css.map",
+    "main.fdb7e7a5.js.map": "/static/js/main.fdb7e7a5.js.map",
     "453.96cba20d.chunk.js.map": "/static/js/453.96cba20d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d64b3960.css",
-    "static/js/main.114fc3c7.js"
+    "static/css/main.94634afe.css",
+    "static/js/main.fdb7e7a5.js"
   ]
 }
