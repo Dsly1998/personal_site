@@ -5,7 +5,7 @@ import Footer from "../Footer/Footer";
 import PopupContact from "../PopupContact/PopupContact";
 import Home from "../../pages/Home";
 import Projects from "../../pages/Projects";
-import Rocket from "../../images/Rocket.svg?react";
+import RocketSvg from "../../images/Rocket.svg?react";
 
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -37,7 +37,7 @@ function App() {
             onMouseEnter={() => setIsHovering(true)}
             onMouseLeave={() => setIsHovering(false)}
           >
-            <Rocket className="header__contact-rocket-icon" />
+            <RocketSvg className="header__contact-rocket-icon" />
             <p className="header__contact-text">Contact Me</p>
           </button>
         </div>
