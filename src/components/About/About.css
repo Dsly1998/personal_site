@@ -9,17 +9,13 @@
 }
 
 .about__title {
-  color: #ffffff !important;
+  color: #fff !important;
   font-family: "Orbitron", "Roboto", "Arial" !important;
   font-size: 2.5rem !important;
   margin-bottom: 2rem !important;
   text-transform: uppercase !important;
   letter-spacing: 2px !important;
-  background: linear-gradient(45deg, #ffffff, #377b98) !important;
-  -webkit-background-clip: text !important;
-  -webkit-text-fill-color: transparent !important;
-  opacity: 0 !important;
-  animation: fadeInDown 1s ease forwards !important;
+  opacity: 1 !important;
 }
 
 .about__text {
