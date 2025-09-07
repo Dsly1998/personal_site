@@ -1,0 +1,6 @@
+.projects {
+  min-height: 100vh;
+  padding-top: 80px; /* Account for fixed header */
+  width: 100%;
+  background: linear-gradient(180deg, #0a0a0a, #1a1a1a);
+}

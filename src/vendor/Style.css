@@ -1,0 +1,101 @@
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Orbitron Regular"), local("Orbitron-Regular"),
+    url("./fonts/Orbitron-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Orbitron Medium"), local("Orbitron-Medium"),
+    url("./fonts/Orbitron-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Orbitron Semibold"), local("Orbitron-Semibold"),
+    url("./fonts/Orbitron-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Orbitron Bold"), local("Orbitron-Bold"),
+    url("./fonts/Orbitron-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 800;
+  src: local("Orbitron ExtraBold"), local("Orbitron-ExtraBold"),
+    url("./fonts/Orbitron-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Orbitron";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Orbitron Black"), local("Orbitron-Black"),
+    url("./fonts/Orbitron-Black.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Regular"), local("Roboto-Regular"),
+    url("./fonts/roboto-400-regular.woff2") format("woff2"),
+    url("./fonts/roboto-400-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Roboto Medium"), local("Roboto-Medium"),
+    url("./fonts/roboto-500.woff2") format("woff2"),
+    url("./fonts/roboto-500.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Bold"), local("Roboto-Bold"),
+    url("./fonts/roboto-700.woff2") format("woff2"),
+    url("./fonts/roboto-700.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  src: local("Roboto Black"), local("Roboto-Black"),
+    url("./fonts/roboto-900.woff2") format("woff2"),
+    url("./fonts/roboto-900.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab Regular"), local("RobotoSlab-Regular"),
+    url("./fonts/roboto-slab-400-regular.woff2") format("woff2"),
+    url("./fonts/roboto-slab-400-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Roboto Slab Bold"), local("RobotoSlab-Bold"),
+    url("./fonts/roboto-slab-700.woff2") format("woff2"),
+    url("./fonts/roboto-slab-700.woff") format("woff");
+}
