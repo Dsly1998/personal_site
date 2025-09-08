@@ -3,7 +3,7 @@
   padding: 60px 0 40px;
   position: relative;
   z-index: 10;
-  min-height: 100vh;
+  min-height: 60vh;
   display: flex;
   align-items: center;
 }
@@ -244,10 +244,10 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 0 40px;
-  gap: 60px;
+  gap: 100px;
 }
 
 .about__info {
